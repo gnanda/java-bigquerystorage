@@ -837,7 +837,8 @@ public class StreamWriter implements AutoCloseable {
 
     private boolean isRecoverableError(Throwable t) {
       Status status = Status.fromThrowable(t);
-      return status.getCode() == Status.Code.UNAVAILABLE;
+      return (status.getCode() == Status.Code.UNAVAILABLE) ||
+          (status.getCode() == Status.Code.RESOURCE_EXHAUSTED);
     }
 
     @Override
