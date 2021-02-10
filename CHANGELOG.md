@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.9.0](https://www.github.com/googleapis/java-bigquerystorage/compare/v1.8.5...v1.9.0) (2021-02-10)
+
+
+### Features
+
+* generate sample code in the Java microgenerator ([#821](https://www.github.com/googleapis/java-bigquerystorage/issues/821)) ([3ab9a30](https://www.github.com/googleapis/java-bigquerystorage/commit/3ab9a309441a681e8adec88f8b8af1298a89cd74))
+
+
+### Bug Fixes
+
+* update repo name ([#818](https://www.github.com/googleapis/java-bigquerystorage/issues/818)) ([ba4b1a2](https://www.github.com/googleapis/java-bigquerystorage/commit/ba4b1a2d8eaa8f5408e476a3b570cb508aa94f57))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-bigquery to v1.127.0 ([#825](https://www.github.com/googleapis/java-bigquerystorage/issues/825)) ([36322fb](https://www.github.com/googleapis/java-bigquerystorage/commit/36322fb1f3d3d286cf8fc6b66f5aa1b97e754d72))
+
 ### [1.8.5](https://www.github.com/googleapis/java-bigquerystorage/compare/v1.8.4...v1.8.5) (2021-01-17)
 
 
